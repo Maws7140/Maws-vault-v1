@@ -69,7 +69,7 @@ See [Meta/Documentation.md](Meta/Documentation.md) for the complete plugin list 
 
 1. **Download the Vault**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Maws7140/Maws-vault-v1
    cd "Maws vault v1"
    ```
 
