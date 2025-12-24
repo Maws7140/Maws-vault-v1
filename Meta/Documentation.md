@@ -1,5 +1,5 @@
 ---
-modified: 2025-12-23
+modified: 2025-12-24
 title: Documentation
 created: 2025-09-28
 ---
@@ -10,19 +10,18 @@ created: 2025-09-28
 **[Pretty Properties](https://github.com/anareaty/pretty-properties)**: Enhances the visual appeal of the note properties section, enabling the use of banners and cover images.
 **[Homepage](https://github.com/mirnovov/obsidian-homepage) + [Hometab](https://github.com/olrenso/obsidian-home-tab)**: Use the Homepage plugin to set a specific note as your default home page. The Hometab plugin can be configured to create a minimalist new tab page (e.g., with only a search bar).
 **[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)**: Manages tasks within your notes, allowing you to track progress, set deadlines, and organize your to-do list effectively.
-**Widgets**: Allows for different widgets used through the plug in
 **[Content Cards](https://github.com/liqms/obsidian-content-cards)**: Creates visual and interactive cards from your notes, enhancing readability and engagement.
 **[Velocity Theme](https://github.com/rivea0/obsidian-velocity)**: for look and setting the appearance of your obsidian.
 **[Notebook Navigator](https://github.com/johansan/notebook-navigator)**: Side pane view with icon and color support
 **[Dataview](https://github.com/blacksmithgu/obsidian-dataview)**: Enables powerful querying and display of data stored within your notes, creating dynamic tables, lists, and more.
-**[Bases Charts](https://github.com/mProjectsCode/obsidian-bases-charts)**: Introduces new bases views
+**[Bases Charts](https://github.com/mProjectsCode/obsidian-bases-charts-plugin)**: Introduces new bases views
 **[Bases CMS](https://github.com/davidvkimball/obsidian-bases-cms)**: Introduces new bases views
 **[Bases Timeline View](https://github.com/xjiaxiang/obsidian-bases-timeline-view)**: Introduces new bases views
 **[Better Properties](https://github.com/unxok/obsidian-better-properties)**: Introduces more customization for properties
-**[Calendar Bases](https://github.com/Erl-koenig/obsidian-calendar-bases)**: Introduces a calendar view for bases
+**[Calendar Bases](https://github.com/edrickleong/obsidian-calendar-bases)**: Introduces a calendar view for bases
 **[Cmdr](https://github.com/phibr0/obsidian-cmdr)**: Allows for the creation of custom commands and assigning them buttons
-**Data Cards**: Allows for a plethora of decorative cards in notes
-**[Dynamic Views](https://github.com/greetclammy/obsidian-dynamic-views)**: Introduces new bases views
+**[Data Cards](https://github.com/liqms/obsidian-content-cards)**: Creates visual and interactive cards from your notes (same as Content Cards)
+**[Dynamic Views](https://github.com/greetclammy/dynamic-views)**: Introduces new bases views
 **[Editing Toolbar](https://github.com/PKM-er/obsidian-editing-toolbar)**: Introduces a word editor style toolbar that can be customized
 **[Feed Bases](https://github.com/Erl-koenig/obsidian-feed-bases)**: Introduces new bases views
 **[Flashly](https://github.com/SamW7140/flashly)**: a flashcard plug in with built in learning mode and quiz mode
@@ -35,7 +34,7 @@ created: 2025-09-28
 **[New Tab Default Page](https://github.com/chrisgrieser/new-tab-default-page)**: Allows for you to set the new tab page to a note
 **[Obsidian Hider](https://github.com/kepano/obsidian-hider)**: Allows you to hide visual elements in the editor
 **[Obsidian Image Toolkit](https://github.com/sissilab/obsidian-image-toolkit)**: allows for image manipulation
-**Obsidian Image Uploader**: allows for image manipulation
+**[Obsidian Image Uploader](https://github.com/addozhang/obsidian-image-upload-toolkit)**: Allows for uploading images to cloud storage services (same as Image Upload Toolkit)
 **[Obsidian Linter](https://github.com/platers/obsidian-linter)**: Allows for automating changes in files
 **[Obsidian Style Settings](https://github.com/mgmeyers/obsidian-style-settings)**: Allows for customizing style settings for many plug ins
 **[Obsidian42 BRAT](https://github.com/TfTHacker/obsidian42-brat)**: Allows for managing plug in still in beta
