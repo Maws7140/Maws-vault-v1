@@ -1,0 +1,59 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Meta/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "Meta/Templates/Scripts",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Projects",
+      "template": "Meta/Templates/newprojecttemp.md"
+    },
+    {
+      "folder": "Time for skoo/Daily",
+      "template": "Meta/Templates/productivitychecktemp.md"
+    },
+    {
+      "folder": "Quick notes",
+      "template": "Meta/Templates/newnotetemp.md"
+    },
+    {
+      "folder": "Ideas",
+      "template": "Meta/Templates/ideatemp.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "Meta/Templates/ideatemp.md",
+    "Meta/Templates/newnotetemp.md",
+    "Meta/Templates/newprojecttemp.md",
+    "Meta/Templates/productivitychecktemp.md",
+    "Meta/Templates/class1temp.md",
+    "Meta/Templates/class2temp.md",
+    "Meta/Templates/class3temp.md",
+    "Meta/Templates/class4temp.md",
+    "Meta/Templates/class5temp.md",
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

@@ -1,0 +1,63 @@
+{
+  "imageAltText": true,
+  "replaceOriginalDoc": false,
+  "ignoreProperties": true,
+  "imageStore": "IMGUR",
+  "showProgressModal": true,
+  "imgurAnonymousSetting": {
+    "clientId": "fb4a95c4bc8432a"
+  },
+  "ossSetting": {
+    "region": "oss-cn-hangzhou",
+    "accessKeyId": "",
+    "accessKeySecret": "",
+    "bucket": "",
+    "endpoint": "https://oss-cn-hangzhou.aliyuncs.com/",
+    "path": "",
+    "customDomainName": ""
+  },
+  "imagekitSetting": {
+    "endpoint": "",
+    "imagekitID": "",
+    "privateKey": "",
+    "publicKey": "",
+    "folder": ""
+  },
+  "awsS3Setting": {
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "region": "",
+    "bucketName": "",
+    "path": "",
+    "customDomainName": ""
+  },
+  "cosSetting": {
+    "region": "",
+    "bucket": "",
+    "secretId": "",
+    "secretKey": "",
+    "path": "",
+    "customDomainName": ""
+  },
+  "kodoSetting": {
+    "accessKey": "",
+    "secretKey": "",
+    "bucket": "",
+    "customDomainName": "",
+    "path": ""
+  },
+  "githubSetting": {
+    "repositoryName": "",
+    "branchName": "main",
+    "token": "",
+    "path": "images"
+  },
+  "r2Setting": {
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "endpoint": "",
+    "bucketName": "",
+    "path": "",
+    "customDomainName": ""
+  }
+}

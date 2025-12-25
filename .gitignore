@@ -1,26 +1,4 @@
-# Obsidian Workspace Files (Personal Layout)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
 
-# Plugin Data Files (May contain personal info, API keys, or user-specific settings)
-.obsidian/plugins/*/data.json
-.obsidian/plugins/*/main.js
-.obsidian/plugins/
-
-# Cache and Index Files
-.obsidian/cache/
-.obsidian/copilot-index-*.json
-
-# Trash
-.trash/
-
-# OS Files
-.DS_Store
-Thumbs.db
-
-# Backup Files
-*.bak
-*~
 
 # Reddit/Social Media Posts
 reddit_post.md

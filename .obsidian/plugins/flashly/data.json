@@ -1,0 +1,110 @@
+{
+  "parser": {
+    "inline": {
+      "enabled": true,
+      "enableQA": true,
+      "enableMultiLine": true,
+      "enableCloze": true,
+      "createEmptyCards": true
+    },
+    "header": {
+      "enabled": true,
+      "flashcardTags": [
+        "flashcards",
+        "cards"
+      ],
+      "headerLevels": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "deckNamePriority": [
+        "frontmatter",
+        "title",
+        "subtags"
+      ],
+      "useSubtags": true,
+      "answerTerminator": "next-header",
+      "createEmptyCards": true,
+      "enableExclusion": true,
+      "exclusionComment": "%%NO_FLASHCARD%%"
+    },
+    "mixedFormats": true
+  },
+  "review": {
+    "scheduler": "fsrs",
+    "limits": {
+      "reviewPerDay": 100,
+      "newPerDay": 20
+    },
+    "includeLearningCards": true,
+    "excludeEmptyCards": true,
+    "deckFilter": [],
+    "enableKeyboardShortcuts": true
+  },
+  "quiz": {
+    "enabled": false,
+    "provider": "openai",
+    "openai": {
+      "apiKey": "",
+      "model": "gpt-4",
+      "baseUrl": "https://api.openai.com/v1"
+    },
+    "anthropic": {
+      "apiKey": "",
+      "model": "claude-3-5-sonnet-20241022",
+      "baseUrl": "https://api.anthropic.com/v1"
+    },
+    "gemini": {
+      "apiKey": "",
+      "model": "gemini-1.5-flash",
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta"
+    },
+    "temperature": 0.7,
+    "maxTokens": 4000,
+    "systemPrompt": "You are a helpful assistant that generates educational quiz questions from flashcard content. Generate clear, accurate questions that test understanding of the material."
+  },
+  "export": {
+    "defaultFormat": "csv",
+    "defaultLocation": "",
+    "includeScheduling": true,
+    "includeTags": true,
+    "includeMedia": false,
+    "csvDelimiter": ",",
+    "csvIncludeBOM": true,
+    "ankiDeckPrefix": "Flashly",
+    "ankiConvertMarkdown": true,
+    "ankiPlainTextMode": false
+  },
+  "browser": {
+    "defaultSort": "created-desc",
+    "defaultDeckSort": "name-asc",
+    "showHierarchy": true,
+    "hierarchyShowFullPath": true,
+    "parentDeckDefaultBehavior": "ask"
+  },
+  "tutorial": {
+    "completed": true,
+    "version": "1.0.0",
+    "completedDate": "2025-12-24T12:51:05.523Z"
+  },
+  "developer": {
+    "enableDebugLogging": false
+  },
+  "cards": {},
+  "lastSync": 1766515800402,
+  "reviewStats": {
+    "totalSessions": 8,
+    "totalReviews": 32,
+    "totalDueReviewed": 1,
+    "totalNewReviewed": 31,
+    "cardsReviewedToday": 27,
+    "lastReviewDate": "2025-11-09T05:20:48.518Z"
+  },
+  "quizStorage": {
+    "quizzes": {},
+    "quizHistory": []
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "hiddenProperties": [
+    "progmax",
+    "tags",
+    "Read"
+  ],
+  "propertyPillColors": {
+    "Not started": {
+      "pillColor": {
+        "h": 0,
+        "s": 56,
+        "l": 40
+      }
+    },
+    "In progress": {
+      "pillColor": {
+        "h": 58,
+        "s": 88,
+        "l": 46
+      }
+    },
+    "Finished": {
+      "pillColor": {
+        "h": 130,
+        "s": 79,
+        "l": 49
+      }
+    },
+    "Development": {
+      "pillColor": "orange",
+      "textColor": "default"
+    },
+    "Maintenance ": {
+      "pillColor": {
+        "h": 73,
+        "s": 73,
+        "l": 51
+      },
+      "textColor": "default"
+    },
+    "Menlo Park, CA": {
+      "pillColor": "yellow",
+      "textColor": "default"
+    },
+    "New York, NY": {
+      "pillColor": "green",
+      "textColor": "default"
+    },
+    "Bellevue, WA": {
+      "pillColor": "blue",
+      "textColor": "default"
+    },
+    "Washington, DC": {
+      "pillColor": "pink",
+      "textColor": "default"
+    },
+    "Class 1": {
+      "pillColor": "yellow",
+      "textColor": "default"
+    }
+  },
+  "propertyLongtextColors": {
+    "Progress": {
+      "pillColor": {
+        "h": 130,
+        "s": 79,
+        "l": 49
+      }
+    },
+    "Easy": {
+      "pillColor": {
+        "h": 119,
+        "s": 100,
+        "l": 50
+      },
+      "textColor": "default"
+    },
+    "Math 230": {
+      "pillColor": "red",
+      "textColor": "default"
+    },
+    "Cmpsc 461": {
+      "pillColor": "green",
+      "textColor": "default"
+    }
+  },
+  "tagColors": {
+    "Progress": {
+      "pillColor": {
+        "h": 130,
+        "s": 79,
+        "l": 49
+      }
+    }
+  },
+  "enableBanner": true,
+  "enableIcon": true,
+  "enableCover": true,
+  "bannerProperty": "banner",
+  "iconProperty": "icon",
+  "coverProperty": "cover",
+  "extraCoverProperties": [],
+  "bannerHeight": 330,
+  "bannerHeightMobile": 100,
+  "bannerHeightPopover": 100,
+  "bannerMargin": -30,
+  "bannerMarginMobile": 0,
+  "bannerFading": true,
+  "coverDefaultWidth1": 200,
+  "coverDefaultWidth2": 250,
+  "coverDefaultWidth3": 300,
+  "coverMaxHeight": 500,
+  "coverVerticalWidth": 200,
+  "coverHorizontalWidth": 300,
+  "coverSquareWidth": 250,
+  "coverCircleWidth": 250,
+  "coverMaxWidthPopover": 150,
+  "progressProperties": {
+    "Status": {
+      "maxNumber": 100
+    },
+    "Progress": {
+      "maxProperty": "progmax"
+    }
+  },
+  "allTasksCount": "tasks",
+  "completedTasksCount": "tasks_completed",
+  "uncompletedTasksCount": "tasks_uncompleted",
+  "completedTasksStatuses": [
+    "x"
+  ],
+  "uncompletedTasksStatuses": [
+    " "
+  ],
+  "bannersFolder": "Meta/Pics",
+  "coversFolder": "Meta/Pics",
+  "showColorSettings": true,
+  "showTextColorSettings": true,
+  "showHiddenSettings": false,
+  "iconsFolder": "Meta/Pics",
+  "iconSize": 70,
+  "iconTopMargin": 70,
+  "iconTopMarginMobile": 44,
+  "iconTopMarginWithoutBanner": -10,
+  "iconLeftMargin": 0,
+  "iconGap": 10,
+  "bannerIconGap": 0,
+  "bannerIconGapMobile": 20,
+  "iconColor": "",
+  "iconColorDark": "",
+  "iconBackground": false,
+  "bannerPositionProperty": "banner_position",
+  "addPillPadding": "all",
+  "addBaseTagColor": true,
+  "enableTasksCount": true,
+  "enableColorButtonInBases": true,
+  "customDateFormat": "",
+  "customDateTimeFormat": "",
+  "enableCustomDateFormat": false,
+  "enableCustomDateFormatInBases": false,
+  "enableRelativeDateColors": false,
+  "settingsTab": "OTHER",
+  "enableTaskNotesCount": false,
+  "allTNTasksCount": "tn_tasks",
+  "completedTNTasksCount": "tn_tasks_completed",
+  "uncompletedTNTasksCount": "tn_tasks_uncompleted",
+  "allTNProjectTasksCount": "tn_project_tasks",
+  "completedTNProjectTasksCount": "tn_project_tasks_completed",
+  "uncompletedTNProjectTasksCount": "tn_project_tasks_uncompleted",
+  "allTNInlineTasksCount": "tn_inline_tasks",
+  "completedTNInlineTasksCount": "tn_inline_tasks_completed",
+  "uncompletedTNInlineTasksCount": "tn_inline_tasks_uncompleted",
+  "allTNAndCheckboxTasksCount": "tn_and_checkbox_tasks",
+  "completedTNAndCheckboxTasksCount": "tn_and_checkbox_tasks_completed",
+  "uncompletedTNAndCheckboxTasksCount": "tn_and_checkbox_tasks_uncompleted",
+  "enableColoredProperties": true,
+  "enableColoredInlineTags": true,
+  "nonLatinTagsSupport": false,
+  "enableColorButton": true,
+  "propertySearchKey": "Ctrl",
+  "showTagColorSettings": true,
+  "iconSizeMobile": 70,
+  "iconSizePopover": 50,
+  "hidePropertiesInPropTab": false,
+  "autoTasksCount": true,
+  "enableColoredTagsInTagPane": true,
+  "mathProperties": [],
+  "enableMath": true,
+  "dataVersion": 1,
+  "dateColors": {
+    "past": {
+      "pillColor": "default",
+      "textColor": "default"
+    },
+    "present": {
+      "pillColor": "default",
+      "textColor": "default"
+    },
+    "future": {
+      "pillColor": "default",
+      "textColor": "default"
+    }
+  },
+  "coverPosition": "left",
+  "enableBannersInPopover": true,
+  "enableIconsInPopover": false,
+  "enableCoversInPopover": true,
+  "hideAllEmptyProperties": false,
+  "hiddenWhenEmptyProperties": [],
+  "iconInTitle": false,
+  "titleIconSize": 30,
+  "titleTextIconMatchTitleSize": true,
+  "enableBases": true,
+  "dateFutureColor": "",
+  "datePastColor": "",
+  "datePresentColor": "",
+  "mySetting": "default",
+  "styleFormulaTags": true
+}

@@ -1,0 +1,224 @@
+/**
+ * Styles for Obsidian Bases Scatter Plot
+ *
+ * Uses Obsidian CSS variables where possible for theme compatibility.
+ */
+
+/* ============================================================================
+   Container
+   ============================================================================ */
+
+.scatter-plot-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  overflow: hidden;
+  background: var(--background-primary);
+}
+
+/* ============================================================================
+   SVG Chart
+   ============================================================================ */
+
+.scatter-chart {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ============================================================================
+   Axes
+   ============================================================================ */
+
+.scatter-axis-line {
+  stroke: var(--text-muted);
+  stroke-width: 1;
+}
+
+.scatter-tick {
+  stroke: var(--text-muted);
+  stroke-width: 1;
+}
+
+.scatter-tick-label {
+  fill: var(--text-muted);
+  font-size: 11px;
+  font-family: var(--font-interface);
+}
+
+.scatter-axis-label {
+  fill: var(--text-normal);
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--font-interface);
+}
+
+/* ============================================================================
+   Grid
+   ============================================================================ */
+
+.scatter-grid-line {
+  stroke: var(--background-modifier-border);
+  stroke-width: 1;
+  stroke-dasharray: 2, 2;
+  opacity: 0.5;
+}
+
+/* ============================================================================
+   Points
+   ============================================================================ */
+
+.scatter-point {
+  cursor: pointer;
+  transition: r 0.15s ease-out, opacity 0.15s ease-out;
+}
+
+.scatter-point:hover {
+  filter: brightness(1.1);
+}
+
+.scatter-point:active {
+  filter: brightness(0.9);
+}
+
+/* ============================================================================
+   Tooltip
+   ============================================================================ */
+
+.scatter-tooltip {
+  position: absolute;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-family: var(--font-interface);
+  box-shadow: var(--shadow-s);
+  z-index: 1000;
+  pointer-events: none;
+  max-width: 250px;
+}
+
+.scatter-tooltip-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--text-normal);
+}
+
+.scatter-tooltip-values {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.scatter-tooltip-values > div {
+  margin-top: 2px;
+}
+
+/* ============================================================================
+   Empty State
+   ============================================================================ */
+
+.scatter-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 200px;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 20px;
+  font-family: var(--font-interface);
+}
+
+.scatter-empty-state-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.scatter-empty-state-text {
+  max-width: 300px;
+  line-height: 1.5;
+}
+
+/* ============================================================================
+   Warnings
+   ============================================================================ */
+
+.scatter-skipped-warning {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 11px;
+  color: var(--text-muted);
+  background: var(--background-secondary);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: var(--font-interface);
+}
+
+/* ============================================================================
+   Legend (Future)
+   ============================================================================ */
+
+.scatter-legend {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 11px;
+  font-family: var(--font-interface);
+}
+
+.scatter-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 0;
+}
+
+.scatter-legend-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.scatter-legend-label {
+  color: var(--text-normal);
+}
+
+/* ============================================================================
+   Zoom Controls (Future)
+   ============================================================================ */
+
+.scatter-zoom-controls {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  display: flex;
+  gap: 4px;
+}
+
+.scatter-zoom-button {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 16px;
+}
+
+.scatter-zoom-button:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}

@@ -1,0 +1,11 @@
+{
+  "actions": [
+    {
+      "where": "",
+      "when": "everyOpen",
+      "what": "property",
+      "propertyName": "modified",
+      "propertyValue": "{{time:YYYY-MM-DD}}"
+    }
+  ]
+}

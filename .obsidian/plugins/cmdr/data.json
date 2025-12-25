@@ -1,0 +1,55 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "templater-obsidian:Meta/Templates/math230temp.md",
+      "icon": "templater-icon",
+      "name": "Templater: Insert math230temp",
+      "mode": "any",
+      "color": "#aa2727"
+    },
+    {
+      "id": "templater-obsidian:Meta/Templates/Ds410temp.md",
+      "icon": "templater-icon",
+      "name": "Templater: Insert Ds410temp",
+      "mode": "any"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "app:reload",
+      "icon": "lucide-rotate-ccw",
+      "name": "Reload app without saving",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Omnisearch",
+      "Advanced Tables Toolbar",
+      "Create new base",
+      "New drawing"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

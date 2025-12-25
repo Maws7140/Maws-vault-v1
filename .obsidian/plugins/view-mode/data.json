@@ -1,0 +1,12 @@
+{
+  "metaPropertyName": "mode",
+  "showModeChangeNotification": false,
+  "folderViewModes": [],
+  "customYamlNames": {
+    "read": "read_only",
+    "edit": "edit_mode",
+    "editSource": "edit_source",
+    "editPreview": "edit_preview",
+    "lock": "locked"
+  }
+}

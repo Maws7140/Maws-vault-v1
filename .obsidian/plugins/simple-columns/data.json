@@ -1,0 +1,10 @@
+{
+  "showBorders": true,
+  "borderWidth": 1,
+  "borderColor": "#f0f0f0",
+  "borderTransparency": 100,
+  "showResizer": true,
+  "resizerColor": "#f0f0f0",
+  "resizerWidth": 3,
+  "resizerTransparency": 100
+}

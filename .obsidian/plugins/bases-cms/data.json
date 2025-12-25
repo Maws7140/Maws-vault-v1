@@ -1,0 +1,23 @@
+{
+  "confirmBulkOperations": true,
+  "deleteParentFolder": false,
+  "deleteParentFolderFilename": "index",
+  "deleteUniqueAttachments": false,
+  "confirmDeletions": true,
+  "useHomeIcon": false,
+  "enableQuickEdit": true,
+  "quickEditCommand": "obsidian-linter:lint-file",
+  "quickEditCommandName": "Linter: Lint the current file",
+  "quickEditIcon": "pencil-line",
+  "quickEditOpenFile": true,
+  "showToolbarSelectAll": true,
+  "showToolbarClear": true,
+  "showToolbarDraft": true,
+  "showToolbarPublish": true,
+  "showToolbarTags": true,
+  "showToolbarSet": true,
+  "showToolbarRemove": true,
+  "showToolbarDelete": true,
+  "forceStaticGifImages": false,
+  "showPropertiesInfoModal": true
+}
