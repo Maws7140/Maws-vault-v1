@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .obsidian/copilot-index-5b70a213f150f01f0776fa9481ef2ddf.json .obsidian/plugins/obsidian42-brat/data.json .obsidian/plugins/tasknotes/main.js' --prune-empty --tag-name-filter cat -- --all)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch:*)",
+      "Bash(git stash:*)",
+      "Bash(git for-each-ref:*)",
+      "Bash(git update-ref:*)",
+      "Bash(git reflog expire:*)",
+      "Bash(git gc:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
