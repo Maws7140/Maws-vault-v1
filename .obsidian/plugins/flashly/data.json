@@ -46,7 +46,7 @@
   },
   "quiz": {
     "enabled": false,
-    "provider": "openai",
+    "provider": "gemini",
     "openai": {
       "apiKey": "",
       "model": "gpt-4",
